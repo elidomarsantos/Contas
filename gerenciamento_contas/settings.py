@@ -28,9 +28,9 @@ SECRET_KEY = 'django-insecure-d#uz=)c-#1(vn@-s83*m)%e+u+1m0rtex=t@9ojszojw1od#f&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['contas_jacuipe.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['contasjacuipe.up.railway.app', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://contas_jacuipe.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://contasjacuipe.up.railway.app']
 
 # Application definition
 
@@ -85,9 +85,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'cUW2A3Qx4U9N5IIIADqg',
-        'HOST': 'containers-us-west-96.railway.app',
-        'PORT': '6103',
+        'PASSWORD': 'dHybw1sAzubEe9unxlmb',
+        'HOST': 'containers-us-west-36.railway.app',
+        'PORT': '6272',
     }
 }
 
